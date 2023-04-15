@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Generate Random Number</title>
+  </head>
+  <body>
+    <div class="main-flex">
+      <header class="page-header">
+        <h1 class="page-header__title">Random Number Generator</h1>
+      </header>
+      <main class="main-content">
+        <section class="random-number">
+          <div class="random-number__wrapper">
+            <p class="random-number__text">
+              Enter the minimum and maximum values and click the button to
+              generate a random number:
+            </p>
+            <div class="random-number__input">
+              <label for="min-value" class="random-number__label"
+                >Minimum Value:</label
+              >
+              <input
+                type="number"
+                id="min-value"
+                class="random-number__field"
+                required
+              />
+            </div>
+            <div class="random-number__input">
+              <label for="max-value" class="random-number__label"
+                >Maximum Value:</label
+              >
+              <input
+                type="number"
+                id="max-value"
+                class="random-number__field"
+                required
+              />
+            </div>
+            <button class="random-number__button" id="generate-button">
+              Generate
+            </button>
+            <p class="random-number__result" id="result">
+              Here will be the result
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <p class="page-footer__text">Дима делает учебные проекты</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

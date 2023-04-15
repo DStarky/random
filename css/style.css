@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-flex {
+  max-width: 1200px;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 2rem);
+}
+
+.page-header {
+  border: 3px solid #000;
+  color: #000;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.page-header__title {
+  text-align: center;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-content {
+  flex-grow: 1;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .random-number__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-content .random-number__text {
+  font-size: 1.5rem;
+  text-align: center;
+  max-width: 450px;
+}
+.main-content .random-number__input {
+  margin-bottom: 2rem;
+}
+.main-content .random-number__label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.main-content .random-number__field {
+  display: block;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  width: 100%;
+  transition: border-color 0.3s ease-in-out;
+}
+.main-content .random-number__field:focus {
+  border-color: #000;
+  outline: none;
+}
+.main-content .random-number__button {
+  background-color: #000;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+.main-content .random-number__button:hover {
+  background-color: #0069d9;
+  cursor: pointer;
+}
+.main-content .random-number__result {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.page-footer {
+  border: 3px solid #000;
+  color: #000;
+  padding: 1rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.page-footer__text {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
